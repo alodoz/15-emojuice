@@ -9,3 +9,18 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Quattrocento', serif;
 
 font-family: 'Sriracha', cursive; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+}
+
+.header-background {
+  border-top: solid 5px;
+  background-image: url(../img/fruits.webp);
+  overflow: visible;
+}
