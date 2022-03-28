@@ -170,7 +170,7 @@ footer p {
   margin-bottom: 15px;
 }
 
-main h2 {
+.page-title h2 {
   text-align: center;
 }
 
@@ -178,9 +178,36 @@ main h2 {
   width: 100px;
   border-radius: 50%;
   border: 25px #ffffff solid;
+  box-shadow: 10 10 100px rgb(0 0 0 / 30%);
 }
 
 .page-title {
   background-color: #c4f2ad;
   text-align: center;
+  padding: 40px 0px 60px;
+}
+
+.container-other-products img {
+  width: 100px;
+}
+
+.container-other-products {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-kiwi {
+  width: 245px;
+  margin: 0px 65px;
+}
+
+.background-info {
+  background-color: #57bb6b;
+  color: #ffffff;
+}
+
+.background-info h2 {
+  margin: 0px 0px 0px 65px;
+  color: #ffffff;
+  padding-top: 50px;
 }
