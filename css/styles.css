@@ -15,12 +15,172 @@ html {
 }
 
 body {
-  max-width: 375px;
   margin: auto;
+  font-family: "Maven Pro", sans-serif;
+  max-width: 375px;
 }
 
-.header-background {
-  border-top: solid 5px;
+header {
+  border-top: solid 8px #57bb6b;
   background-image: url(../img/fruits.webp);
-  overflow: visible;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+header h2 {
+  font-family: "Quattrocento", serif;
+  font-size: 20px;
+  color: #57bb6b;
+  font-weight: 1;
+  text-align: center;
+  margin: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.title-case {
+  margin: 30px;
+  background-color: #ffffffe5;
+  padding: 30px 50px;
+}
+
+.button-contact {
+  background-color: white;
+  padding: 15px 10px;
+  text-align: center;
+  color: #57bb6b;
+  border-radius: 15px;
+  font-size: 19px;
+  margin: 20px 100px;
+  text-decoration: none;
+}
+
+.business-description {
+  text-align: center;
+  margin: 70px;
+}
+
+.business-description img {
+  margin-top: 15px;
+}
+
+.business-description p {
+  font-family: "Quattrocento", serif;
+}
+
+.button-products {
+  background-color: #57bb6b;
+  padding: 15px 15px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  font-size: 19px;
+  margin: 0px 70px;
+  text-decoration: none;
+}
+
+.main-background {
+  background-color: #57bb6b;
+  padding: 25px 25px 10px 25px;
+}
+
+.main-background h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+article {
+  padding: 5px 40px 30px 40px;
+  margin-bottom: 40px;
+}
+
+article h1 {
+  font-family: "Sriracha", cursive;
+  font-size: 30px;
+}
+
+article p {
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  font-family: "Quattrocento", serif;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: black;
+  font-size: 14px;
+}
+
+.products img {
+  width: 80px;
+}
+
+.banana-juice {
+  background-color: #fff8d7;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.kiwi-sirup {
+  background-color: #c4f2ad;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.ice-coffee {
+  background-color: #d3c6b2;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.strawberry-delight {
+  background-color: #f7a4b4;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+footer {
+  text-align: center;
+  color: #57bb6b;
+  padding: 0px 60px 60px 60px;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 70px 0px 30px;
+}
+
+.container-contact div {
+  background-color: #57bb6b;
+  padding: 15px 15px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  font-size: 19px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.icone-kiwi img {
+  width: 100px;
+  border-radius: 50%;
+  border: 25px #ffffff solid;
+}
+
+.page-title {
+  background-color: #c4f2ad;
+  text-align: center;
 }
