@@ -146,12 +146,13 @@ article p {
   background-color: #f7a4b4;
   border-radius: 20px;
   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  padding: 30px;
 }
 
 footer {
   text-align: center;
   color: #57bb6b;
-  padding: 0px 60px 60px 60px;
+  padding: 0px 60px 50px 60px;
 }
 
 footer p {
@@ -187,6 +188,11 @@ footer p {
   padding: 40px 0px 60px;
 }
 
+.page-title p {
+  font-family: "Quattrocento", serif;
+  color: #00000072;
+}
+
 .container-other-products img {
   width: 100px;
 }
@@ -198,16 +204,44 @@ footer p {
 
 .photo-kiwi {
   width: 245px;
-  margin: 0px 65px;
 }
 
 .background-info {
   background-color: #57bb6b;
+  padding: 0px 65px 40px 65px;
   color: #ffffff;
+  font-family: "Quattrocento", serif;
 }
 
 .background-info h2 {
-  margin: 0px 0px 0px 65px;
-  color: #ffffff;
-  padding-top: 50px;
+  padding: 50px 0px 25px 0px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.background-other-products {
+  background-color: #c4f2ad;
+  padding: 30px;
+}
+
+.background-other-products h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.strawberry-delight {
+  background-color: #f7a4b4;
+  font-family: "Sriracha", cursive;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.coffee {
+  background-color: #d3c6b2;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  font-family: "Sriracha", cursive;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
 }
